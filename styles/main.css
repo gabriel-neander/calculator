@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+/* Container */
+#bling {
+    z-index: 2;
+    position: absolute;
+    left: 22%;
+    top: 30px;
+    display: none;
+}
+#bling img {
+    width: 140px;
+}
+#container {
+    margin: 10px;
+    border-radius: 0px;
+    width: 350px;
+    height: 580px;
+    background-color: #888a89;
+    box-shadow: -15px 10px 0px -1px rgba(0,0,0,0.75);
+}
+#container #display {
+    background-color: #98dbbf;
+    padding: 15px 0;
+    margin: 15px;
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: inset -5px 5px 0px 2px rgba(94, 92, 92, 0.73);
+}
+#container .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px;
+}
+#container .controls #operator {
+    background: linear-gradient(0deg, rgba(99,5,5,1) 0%, rgba(152,9,9,1) 35%, rgba(226,6,6,1) 100%);
+}
+#container .controls #buttonEraser {
+    background: linear-gradient(0deg, rgba(120,129,9,1) 0%, rgba(154,159,8,1) 35%, rgba(211,244,8,1) 100%);
+}
+#container .controls #buttonEqual {
+    background: linear-gradient(0deg, rgba(120,129,9,1) 0%, rgba(154,159,8,1) 35%, rgba(211,244,8,1) 100%);
+}
+#container .controls .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid;
+    padding: 5px 2px;
+    width: 90px;
+    height: 47px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(0deg, rgba(90,92,93,1) 0%, rgba(119,121,124,1) 35%, rgba(218,220,221,1) 100%);
+}
+#container .controls #operator {
+    background-color: red;
+}
+#container .controls .button:active {
+    font-size: 15px;
+}
