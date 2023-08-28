@@ -17,6 +17,7 @@ body {
     width: 140px;
 }
 #container {
+    user-select: none;
     margin: 10px;
     border-radius: 0px;
     width: 350px;
@@ -69,4 +70,7 @@ body {
 }
 #container .controls .button:active {
     font-size: 15px;
+}
+#container .controls #disabled {
+    background: linear-gradient(0deg, rgba(8,7,7,1) 0%, rgba(17,13,13,1) 35%, rgba(78,71,71,1) 100%);
 }

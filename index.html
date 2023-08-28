@@ -15,42 +15,42 @@
             <audio id="clickSound" src="sounds/click.mp3"></audio>
             <img src="images/sound1.png">
         </div>
-        <div id="display">0</div>
+        <div name="0" id="display">0</div>
         <div class="controls" onclick="bling()">
-        <div  id="operator" class="button">%</div>
-        <div class="button"></div>
-        <div class="button"></div>
+        <div  name="%" id="operator" class="button">%</div>
+        <div id="disabled" class="button"></div>
+        <div id="operator" class="button" onclick="resetFormulaAndDisplay()">C</div>
         <div id="buttonEraser" class="button"><</div>
         </div>
         <div class="controls" onclick="bling()">
-        <div class="button"></div>
-        <div id="operator" class="button">x²</div>
-        <div class="button"></div>
-        <div id="operator" class="button">/</div>
+        <div id="disabled" class="button"></div>
+        <div name="^" id="operator" class="button">x²</div>
+        <div id="disabled" class="button"></div>
+        <div name="÷" id="operator" class="button">÷</div>
         </div>
         <div class="controls" onclick="bling()">
-        <div class="button">7</div>
-        <div class="button">8</div>
-        <div class="button">9</div>
-        <div id="operator" class="button">X</div>
+        <div name="7" class="button">7</div>
+        <div name="8" class="button">8</div>
+        <div name="9" class="button">9</div>
+        <div name="x" id="operator" class="button">X</div>
         </div>
         <div class="controls" onclick="bling()">
-        <div class="button">4</div>
-        <div class="button">5</div>
-        <div class="button">6</div>
-        <div id="operator" class="button">-</div>
+        <div name="4" class="button">4</div>
+        <div name="5" class="button">5</div>
+        <div name="6" class="button">6</div>
+        <div name="-" id="operator" class="button">-</div>
         </div>
         <div class="controls" onclick="bling()">
-        <div class="button">1</div>
-        <div class="button">2</div>
-        <div class="button">3</div>
-        <div id="operator" class="button">+</div>
+        <div name="1" class="button">1</div>
+        <div name="2" class="button">2</div>
+        <div name="3" class="button">3</div>
+        <div name="+" id="operator" class="button">+</div>
         </div>
         <div class="controls" onclick="bling()">
-        <div class="button"></div>
-        <div class="button">0</div>
-        <div class="button">,</div>
-        <div id="buttonEqual" class="button">=</div>
+        <div id="disabled" class="button"></div>
+        <div name="0" class="button">0</div>
+        <div name="," class="button">,</div>
+        <div name="=" id="buttonEqual" class="button">=</div>
         </div>
     </div>
 </body>
